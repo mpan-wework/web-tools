@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+.canvas {
+  background-color: #999;
+}
+
+.controls {
+  background-color: #fff;
+  width: auto;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.control {
+  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+input[type="number"] {
+  width: 5rem;
+}
+
+input[type="range"] {
+  width: 5rem;
+}
